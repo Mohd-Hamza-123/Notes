@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Note Wave</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="js.css">
+  <link rel="stylesheet" href="second_page.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+
+  <div class="container flex">
+    <div id="input_note" class="">
+      <h1 class="hamz">Hamz Notes</h1>
+      <div class="Note_name flex">
+        <input id="note_name" type="text" placeholder="Name of Your Note..." disabled>
+        <select name="" id="bxs-image" class="bxs-image">
+          <option class="option" value="url(back1.jpg)">Default</option>
+          <option class="option" value="url(back2.jpg)">Money Heist</option>
+          <option class="option" value="url(back3.jpg)">Skull</option>
+          <option class="option" value="url(back4.jpg)">Bulb</option>
+          <option class="option" value="url(back5.jpg)">Moon</option>
+          <option class="option" value="url(back6.jpg)">Highway</option>
+          <option class="option" value="url(back7.jpg)">Draw</option>
+        </select>
+        <i class='bx bx-spreadsheet' id="primary_spreadsheet"></i>
+      </div>
+      <div class="write_notes">
+        <textarea readonly name="" class="write_note_primary" placeholder="Click the + circle to write"></textarea>
+        <input type="color" id="color_pallet" value="#ffffff">
+        <i class='bx bx-volume-full displayNone'></i>
+        <button class="add_note add_save_button" type="button">+</button>
+        <button class="displayNone add_save_button" id="save_note" type="button">Save</button>
+        <button class="edit_button add_save_button displayNone" type="button"><i class='bx bx-edit'></i></button>
+      </div>
+      <footer id="first_page_footer" class="flex">
+        <p>&copy; All Right Reserved </p>
+      </footer>
+    </div>
+
+
+
+    <!-- second page  -->
+    <div class="second_page displayNone">
+      <!-- <h1>Hamz Notes</h1> -->
+      <div class="second_page_menu flex">
+        <h2 id="your_Notes">Your Notes :</h2>
+
+        <div class="flex grid_spread">
+
+          <div class="menu_arrow_div flex">
+            <div class="menu">
+              <i class='bx bxs-archive'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bx-sort-a-z displayNone'> </i>
+              <i class='bx bx-table'></i>
+            </div>
+            <div class="arrow_grid">
+              <i class='bx bx-chevron-right'></i>
+              <i class='bx bxs-grid-alt'></i>
+            </div>
+          </div>
+          <i class='bx bx-spreadsheet'></i>
+        </div>
+
+      </div>
+
+      <hr id="hr">
+
+      <div class="second_page_All_Notes flex">
+
+      </div>
+
+      <footer class="flex second_page_footer">
+        <p id="total_Archive">Archive Notes : 0 </p>
+        <p id="total_Note">Total Notes : 0 </p>
+        <p id="total_Favourite">Favourite Notes : 0</p>
+      </footer>
+
+    </div>
+  </div>
+
+
+  <script src="script.js" defer></script>
+</body>
+
+
+</html>

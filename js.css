@@ -1,0 +1,31 @@
+.displayNone {
+    display: none;
+}
+
+
+#save_note {
+    position: absolute;
+    border-radius: 4px;
+    width: 70px;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    right: 10.7%;
+    bottom: 2%;
+    opacity: 0.5;
+    font-family: 'Noto Serif', serif;
+}
+
+#save_note:hover {
+    opacity: 1;
+}
+
+.add_note {
+    top: 25.5% !important;
+    right: 2.5%;
+}
+
+.yellow {
+    color: yellow;
+    border-color: yellow;
+}

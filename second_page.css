@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.second_page {
+    width: 100%;
+    height: 97%;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.second_page h1 {
+    font-family: 'Noto Serif', serif;
+    padding: 0 30px;
+}
+
+#your_Notes {
+    font-family: 'Petrona', serif;
+}
+
+.menu {}
+
+.second_page_menu {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    position: relative;
+    margin-top: 7px;
+    min-height: 50px;
+}
+
+#hr {
+    height: 3px;
+    color: white;
+    margin: 7px 0px 12px 0px;
+}
+
+.second_page_menu .bxs-grid-alt {
+    font-size: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.arrow_grid {
+    margin-top: 4px;
+}
+
+.arrow_grid:hover {
+    color: yellow;
+
+}
+
+.bx-chevron-right {
+    font-size: 45px;
+    transform: rotate(180deg);
+}
+
+.second_page_menu .bxs-archive,
+.second_page_menu .bxs-star,
+.second_page_menu .bx-sort-a-z,
+.second_page_menu .bx-table {
+    font-size: 31px;
+    margin: 0px 5px;
+    cursor: pointer;
+    border: 2px solid white;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.second_page_menu .bxs-archive:hover,
+.second_page_menu .bxs-star:hover,
+.second_page_menu .bx-sort-a-z:hover,
+.second_page_menu .bx-table:hover {}
+
+
+
+.second_page_menu .bx-menu:hover {
+    color: rgb(250, 88, 24);
+    background-color: yellow;
+    box-shadow: 0 0 30px rgb(103, 233, 17);
+}
+
+.menu_arrow_div {
+    align-items: center;
+    /* border: 1px groove rgba(255, 255, 255, 0.562); */
+}
+
+.grid_spread {
+    gap: 30px;
+    align-items: center;
+}
+
+#your_Notes {
+    color: white;
+    /* margin-block: 20px; */
+    /* text-align: center; */
+}
+
+.second_page_All_Notes {
+    flex-direction: column;
+    height: 85%;
+    padding: 8px;
+    font-size: 19px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-weight: lighter;
+    border: 1px ridge white;
+    font-family: 'Petrona', serif;
+}
+
+.second_page_All_Notes h3 {
+    width: 70%;
+    cursor: pointer;
+    overflow: hidden;
+    height: 25px;
+}
+
+.second_Page_Note,
+.second_Page_Note_star_list,
+.second_Page_Note_archive_list,
+.second_Page_Note_sort_list {
+    margin: 5px 12px;
+    padding: 7px 11px;
+    border: 1px solid rgba(255, 255, 255, 0.253);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.second_Page_Note:hover,
+.second_Page_Note_star_list:hover,
+.second_Page_Note_archive_list:hover,
+.second_Page_Note_sort_list:hover {
+    background-color: rgba(128, 128, 128, 0.288);
+    /* border: none; */
+}
+
+
+
+.second_Page_Note_icons,
+.second_Page_Note_icons_star,
+.second_Page_Note_icons_archive,
+.second_Page_Note_icons_sort {
+    gap: 30px;
+}
+
+.second_Page_Note_icons i {
+    font-size: 28px;
+}
+
+.second_Page_Note_star_list i {
+    font-size: 28px;
+}
+
+.second_Page_Note_icons_archive i {
+    font-size: 28px;
+}
+
+.second_page_top_icons {
+    gap: 30px;
+}
+
+.second_page_footer {
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.second_page_footer p {
+    font-size: 20px;
+}
+
+/*////////////////////////////////////////////////////////////////////////*/

@@ -1,0 +1,267 @@
+@media screen and (max-width:400px) {
+    .container {
+        width: 100%;
+        height: 100%;
+        padding: 0px 15px;
+    }
+
+    .hamz {
+        font-size: 20px;
+        margin-top: 0px;
+        text-align: center;
+        color: white;
+    }
+
+    .hamz::before {
+        position: absolute;
+        content: '';
+        color: none;
+    }
+
+    #input_note {
+        width: 100%;
+        height: 100%;
+    }
+
+    #note_name {
+        height: 23px;
+        width: 60%;
+        padding: 0px 2px;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+
+    .Note_name {
+        gap: 25%;
+        margin: 10px 0px 10px 0px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .bx-spreadsheet {
+        font-size: 28px;
+    }
+
+    #primary_spreadsheet {
+        position: absolute;
+        bottom: -4px;
+        right: 2.5%;
+    }
+
+    .add_save_button {
+        height: 25px;
+        width: 25px;
+        font-size: 20px;
+        bottom: 1%;
+        line-height: 0px;
+        right: 2%;
+    }
+
+    .add_note {
+        right: 17%;
+        top: -5.9% !important;
+
+    }
+
+    .write_note_primary {
+        font-size: 18px;
+        padding: 5px;
+        width: 100%;
+        height: 100%;
+        font-weight: normal;
+        border-radius: 5px;
+    }
+
+    .write_notes {
+        width: 100%;
+        height: 83%;
+    }
+
+    #color_pallet {
+        height: 30px;
+        width: 30px;
+        padding: 3px;
+        right: 2%;
+        opacity: 0.5;
+        top: 1%;
+        border: 1px solid white;
+
+    }
+
+    #save_note {
+        border-radius: 5px;
+        width: 42px;
+        font-size: 14px;
+        height: 27px;
+        right: 2.7%;
+        bottom: 2%;
+        line-height: 0;
+    }
+
+    #first_page_footer {
+        margin: 5px;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 12px;
+    }
+
+    .bxs-image {
+        right: 30%;
+        font-size: 13px;
+        border-radius: 5px;
+        width: 21px;
+        bottom: 0%;
+    }
+
+    /* second page  */
+    .second_page h1 {
+        padding: 0 30px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .second_page_menu {
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 0px;
+        position: relative;
+        min-height: 49px;
+        margin-top: 5px;
+    }
+
+    #your_Notes {
+        font-size: 14px;
+    }
+
+    .bx-chevron-right {
+        font-size: 25px;
+        transform: rotate(180deg);
+    }
+
+    .second_page_menu .bxs-grid-alt {
+        font-size: 25px;
+        border-radius: 5px;
+    }
+
+    .grid_spread {
+        gap: 10px;
+        /* justify-content: space-around; */
+    }
+
+    .second_page_All_Notes h3 {
+        width: 70%;
+        cursor: pointer;
+        overflow: hidden;
+        height: 25px;
+        font-size: 16px;
+    }
+
+    .second_page_menu .bxs-archive,
+    .second_page_menu .bxs-star,
+    .second_page_menu .bx-sort-a-z,
+    .second_page_menu .bx-table {
+        font-size: 12px;
+        margin: 0px 2px;
+        cursor: pointer;
+        border: 2px solid white;
+        padding: 6px;
+        border-radius: 50%;
+    }
+
+    .second_Page_Note_icons,
+    .second_Page_Note_icons_star,
+    .second_Page_Note_icons_archive,
+    .second_Page_Note_icons_sort {
+        gap: 18px;
+    }
+
+    .arrow_grid {
+        display: flex;
+        align-items: center;
+    }
+
+    #hr {
+        height: 3px;
+        margin: 0px 0px 7px 0px;
+    }
+
+    .second_page {
+        width: 100%;
+        height: 97%;
+        padding: 0px;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .menu_arrow_div {
+
+        margin: 0px 0px 3px 0px;
+
+    }
+
+    .menu {
+        margin-top: 2px;
+    }
+
+    .second_page_All_Notes {
+        flex-direction: column;
+        height: 88%;
+        padding: 0px;
+        font-size: 19px;
+    }
+
+
+    .second_Page_Note,
+    .second_Page_Note_star_list,
+    .second_Page_Note_archive_list {
+        margin: 5px 5px;
+        padding: 3px 3px;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 2px;
+    }
+
+    .second_Page_Note,
+    .second_Page_Note_star_list,
+    .second_Page_Note_archive_list {
+        margin: 5px 5px;
+        padding: 3px 3px;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 2px;
+    }
+
+    .second_Page_Note,
+    .second_Page_Note_star_list,
+    .second_Page_Note_archive_list {
+        margin: 5px 5px;
+        padding: 3px 3px;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 2px;
+    }
+
+
+    .second_Page_Note_icons i {
+        font-size: 18px;
+    }
+
+    .second_Page_Note_star_list i {
+        font-size: 18px;
+    }
+
+    .second_Page_Note_icons_archive i {
+        font-size: 18px;
+    }
+
+    footer {
+        font-family: 'Poppins', sans-serif;
+        font-size: 9px;
+        text-align: center;
+        margin-top: 3px;
+    }
+
+    .second_page_footer p {
+        font-size: 10px;
+    }
+}
